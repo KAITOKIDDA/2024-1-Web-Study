@@ -4,7 +4,7 @@ JavaScript가 DOM에 어떻게 접근하고 적용될까?
 b.
 브라우저를 이루는 컴포넌트 중, JavaScript Engine은 무엇이고 어떤 일을 할까?  
 -JavaScript를 읽어서 JavaScript 코드를 실행시켜준다.   
--JavaScript 관련 코드는 일반적인 DOM 생성 프로세스를 벗어나 JavaScript Engine이 전담하여 처리되고 DOM API를 통해 DOM tree와 CSSOM tree에 다시 편입된다.  
+-JavaScript 관련 코드는 일반적인 DOM 생성 프로세스를 벗어나 JavaScript Engine이 전담하여 처리되고 DOM API를 통해 DOM tree와 CSSOM tree에 다시 편입된다.<br> 
 c.
 inline CSS가 항상 좋은 것일까? 아니라면 그 이유는 무엇일까?  
  -인라인 스타일은 간단하고 빠르게 스타일을 적용할 수 있다는 점이 장점이지만 단점이 많다.  
