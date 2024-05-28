@@ -1,12 +1,12 @@
 1. HTTP 통신 메소드인 GET, POST, PUT, PATCH, DELETE를 직접 체험해보고 그 사용 사례를 정리하여 WIL3.md 파일에 정리한다.  
 <br>
-- [Get예시](GET.PNG) <br>
+- [Get예시](https://github.com/KAITOKIDDA/2024-1-Web-Study/blob/main/Week3/GET.PNG) <br>
    GET메소드는 정보를 조회해주는 메서드이다.<br>
    웹에서 유튜브를 재생했을 때의 사진이다. miniplayer.js는 소형 재생 플레이어 기능을 담당하는 코드로 보이는데 GET메소드를 사용하고 있다.
    요청한 URL을 통해 유튜브는 JavaScript 플레이어 스크립트를 클라이언트에게 전달한다.<br> 
    이 스크립트에는 유튜브 비디오 재생과 관련된 모든 기능이 포함되어 있으며, 소형 플레이어(미니플레이어) 기능도 포함된다.<br> 
    즉 GET 메서드를 사용하여 해당 URL에 요청을 보냄으로써, 유튜브는 소형 플레이어 기능을 포함한 전체 플레이어 스크립트 리소스를 클라이언트에게 제공하게 된다.<br><br>
-- [POST예시](POST.PNG)<br>
+- [POST예시](https://github.com/KAITOKIDDA/2024-1-Web-Study/blob/main/Week3/POST.PNG)<br>
    POST메서드는 새로운 리소스를 등록해주는 메서드이다.<br>
    웹에서 네이버 블로그 글쓰기 기능을 이용할 때의 사진이다.<br>
    RabbitAutoSaveWrite.naver는 자동저장 기능에 대한 코드로 보이는데 POST메소드를 사용하고 있다.<br>
